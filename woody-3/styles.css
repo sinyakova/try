@@ -4,19 +4,12 @@ body {
     background-size: 100%;
 }
 
-header {
-    text-align: center;
-    font-family: "Courier New";
-    font-size: 150px;
-    font-weight: 900;
-}
-
-table {
+header table {
     text-align: center;
     width: 100%;
 }
 
-table a {
+header table a {
     font-size: 20px;
     color: black;
     font-weight: 700;
@@ -50,10 +43,11 @@ p {
     line-height: 24px;
     background-color: #fdd6a7;
 }
-
+/*
 ul li {
     list-style-image: url(images/marker.png)
 }
+*/
 
 footer {
     text-align: right;
@@ -70,3 +64,34 @@ input {
     font-family: "Courier New";
 }
 
+form:first-letter {
+    text-transform: capitalize;
+}
+
+header figure {
+    text-align: left;
+    margin: 2%;
+    height: 170px;
+}
+
+header figure img {
+    height: 170px;
+}
+
+header table tr td a:hover {
+    color: brown
+}
+
+.e-mail:focus {
+    color: crimson;
+    background-color: burlywood;
+}
+
+div table {
+    margin: auto;
+    text-align: center;
+}
+
+div table tr td {
+    border: 1px solid black;
+}
