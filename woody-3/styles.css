@@ -24,7 +24,7 @@ header {
     vertical-align: center;
 }
 
-.logo{
+.logo {
     height: 150px;
 }
 
@@ -47,7 +47,7 @@ header div a {
 
 header div a:hover {
     color: red;
-    font-size: 27px;
+    font-size: 26px;
 }
 
 /*ПОДВАЛ*/
@@ -71,11 +71,35 @@ footer {
     text-align: center;
 }
 
+/*MAIN*/
 
-/*  
-}
 h1 {
     text-align: center;
+    color: brown;
+    font-size: 36px;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.tovar {
+    border: 2px dashed chocolate;
+    width: 22%;
+    align-content: center;
+    text-align: center;
+}
+
+
+.pic_tov {
+    width: 80%;
+}
+
+
+/*  
 }
 
 legend,
@@ -102,16 +126,7 @@ p {
     line-height: 24px;
     background-color: #fdd6a7;
 }
-/*
-ul li {
-    list-style-image: url(images/marker.png)
-}
-*/
 
-/*
-footer {
-    text-align: right;
-}
 
 figure {
     text-align: center
