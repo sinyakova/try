@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+main{
+    width: 86%;
+    margin: 0 auto;
+}
+
 /*РАМОЧКИ К ШАПКЕ И ПОДВАЛУ*/
 
 header,
@@ -68,7 +73,10 @@ body {
 }
 
 footer {
-    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /*MAIN*/
@@ -78,6 +86,14 @@ h1 {
     color: brown;
     font-size: 36px;
 }
+
+h2 {
+    text-align: center;
+    color: brown;
+
+}
+
+/*КАТАЛОГ*/
 
 .catalog {
     display: flex;
@@ -93,43 +109,33 @@ h1 {
     text-align: center;
 }
 
-
 .pic_tov {
     width: 80%;
 }
 
-
-/*  
+.link {
+    color: chocolate;
+    font-weight: 600;
+}
+/*СТРАНИЦЫ ТОВАРОВ*/
+.description {
+    display: flex;
 }
 
-legend,
-h2 {
-    text-align: center;
-    font-size: 18px;
-    font-weight: 800;
-    background-color: #f7e59b;
+.cont_for_pic{
+    width: 200%;
 }
-
-a figure {
-    text-align: center;
+.tov_pic{
+    width: 100%;
 }
+/*КОНТАКТЫ*/
 
-a figure img {
-    height="300"
-}
-
-.har,
-p {
-    text-align: justify;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    background-color: #fdd6a7;
-}
-
-
-figure {
+.contacts {
     text-align: center
+}
+
+fieldset {
+    border-color: chocolate;
 }
 
 input {
@@ -138,36 +144,3 @@ input {
     font-size: 16px;
     font-family: "Courier New";
 }
-
-form:first-letter {
-    text-transform: capitalize;
-}
-
-header figure {
-    text-align: left;
-    margin: 2%;
-    height: 170px;
-}
-
-header figure img {
-    height: 170px;
-}
-
-header table tr td a:hover {
-    color: brown
-}
-
-.e-mail:focus {
-    color: crimson;
-    background-color: burlywood;
-}
-
-div table {
-    margin: auto;
-    text-align: center;
-}
-
-div table tr td {
-    border: 1px solid black;
-}
-*/
