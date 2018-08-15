@@ -1,0 +1,172 @@
+html,
+body {
+    height: 100%;
+    font-family: "Courier New";
+    padding: 0;
+
+    font-size: 20px;
+    margin: 0;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+/*header*/
+
+.head_container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5%;
+}
+
+.menu {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: "Courier New";
+    font-weight: 600;
+    color: black;
+}
+
+.logo a img {
+    height: 100px;
+}
+
+.head_social {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head_social a img {
+    height: 30px;
+}
+
+/*main*/
+
+.main_main {
+    /*border: 1px solid #000;*/
+}
+
+.main_container {
+    background-image: url(images/image_main.jpg);
+    background-size: 100%;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tringle {
+    width: 0;
+    height: 0;
+    border-left: 180px solid transparent;
+    border-right: 180px solid transparent;
+    border-top: 55px solid #fff;
+    margin: 0 auto;
+}
+
+.main_main_square {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    background-color: rgba(217, 191, 143, 0);
+    width: 277px;
+    height: 277px;
+    display: flex;
+    margin: 5% auto;
+    background-color: rgba(116, 110, 100, 0.5);
+
+}
+
+.main_main__square {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    width: 260px;
+    height: 260px;
+    margin: auto;
+}
+
+/*catalog*/
+
+.main_catalog {}
+
+.catalog_container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tovar {
+    width: 15%;
+    border: 3px dashed #000;
+    background-color: #f0eeee;
+    margin-bottom: 1%
+}
+
+.tovar a {
+    color: #000;
+    text-decoration: none;
+}
+
+.tovar_pic {
+    width: 100%;
+}
+
+.see_more {
+    height: 0;
+    width: 100px;
+    border-bottom: 30px solid #fff;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.see_more_p {
+    margin: auto auto;
+    font-size: 14px;
+}
+
+.contacts_container {
+    width: 90%;
+    margin: 0 auto;
+}
+.contacts{
+    align-content: center;
+}
+legend, h2 {
+    text-align: center;
+}
+
+/*footer*/
+
+footer {
+    border: 1px solid #000;
+}
+
+.foot_container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}
