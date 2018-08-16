@@ -1,12 +1,49 @@
-/*КО ВСЕМУ*/
+html,
+body {
+    margin: 0;
+}
+
+body {
+    padding: 15px;
+
+}
+
+.head_container {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*КО ВСЕМУ
 
 body {
     font-family: "Courier New";
     background-color: antiquewhite;
-    margin: 0;
+    margin: 0;*/
+
 }
 
-main{
+main {
     width: 86%;
     margin: 0 auto;
 }
@@ -117,22 +154,23 @@ h2 {
     color: chocolate;
     font-weight: 600;
 }
+
 /*СТРАНИЦЫ ТОВАРОВ*/
+
 .description {
     display: flex;
 }
 
-.cont_for_pic{
+.cont_for_pic {
     width: 200%;
 }
-.tov_pic{
+
+.tov_pic {
     width: 100%;
 }
+
 /*КОНТАКТЫ*/
 
-.contacts {
-    text-align: center
-}
 
 fieldset {
     border-color: chocolate;
